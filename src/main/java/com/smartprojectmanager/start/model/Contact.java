@@ -39,7 +39,7 @@ public Contact(int cId, String contactName, String email, String work, String im
 }
 public Contact() {
 	super();
-	// TODO Auto-generated constructor stub
+	 
 }
 public int getcId() {
 	return cId;
