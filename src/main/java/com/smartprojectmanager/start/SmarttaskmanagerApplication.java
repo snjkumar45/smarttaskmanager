@@ -1,4 +1,4 @@
-package com.smartprojectmanager.start;
+	package com.smartprojectmanager.start;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

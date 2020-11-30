@@ -11,7 +11,7 @@ public class MyController {
 	@Autowired
 	private UserRepository userRepository;
 
-	@RequestMapping("/home")
+	@RequestMapping("/")
 	public String home(Model model) {
 		model.addAttribute("titles","Smart Contact Manager");
 		return "home";
@@ -21,6 +21,18 @@ public class MyController {
 	public String about(Model model) {
 		model.addAttribute("titles","Smart Contact Manager");
 		return "about";
+
+	}
+	@RequestMapping("/register")
+	public String register(Model model) {
+		model.addAttribute("titles","Smart Contact Manager");
+		return "register";
+
+	}
+	@RequestMapping("/signin")
+	public String signin(Model model) {
+		model.addAttribute("titles","Smart Contact Manager");
+		return "signin";
 
 	}
 
